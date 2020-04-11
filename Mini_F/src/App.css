@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-image: url("https://talk.mthai.com/storage/uploads/2019/07/09/f307d702ada7134c97ab3d99e9bf78f5.jpeg"); 
+  background-position: center;
+  background-repeat: repeat; 
+  /* background-size: cover;  */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  background-color: black ;
+  background-position: 0px 0px;
+} 
+ 
+.App {
+  color: white;
+}
+.btp {
+  color: black;
+}
+
+.btm {
+  background-color: rgb(59, 11, 90);
+  color: white;
+  padding: 5px 15px;
+  margin-top: 0.3em;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 0.3em;
+}
+
+.btr {
+  background-color: rgb(235, 75, 195);
+  color: white;
+  padding: 5px 15px;
+  margin-left: 0.3em;
+}
+
+.btc {
+  background-color: rgb(33, 6, 51);
+  color: white;
+  padding: 5px 15px;
+  margin-top: 0.3em;
+}
+
