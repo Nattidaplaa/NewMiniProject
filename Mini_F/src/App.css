@@ -1,20 +1,26 @@
 body {
-  text-align: center;
-  background-image: url("https://talk.mthai.com/storage/uploads/2019/07/09/f307d702ada7134c97ab3d99e9bf78f5.jpeg"); 
-  background-position: center;
-  background-repeat: repeat; 
+  /* text-align: center; */
+  /* background-image: url("https://3.bp.blogspot.com/-ilyYexAGCx4/XCMx6zod66I/AAAAAAAAIr0/5xoklei80i0OD4xZayOviAIJeFRk_VzTwCEwYBhgL/s1600/DkJJMJsUYAAT0Ij.jpg");  */
+  /* background-position: center;
+  background-repeat: repeat;  */
   /* background-size: cover;  */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5em;
-  background-color: black ;
-  background-position: 0px 0px;
+  background-color: #9c6478 ;
+  
 } 
  
+.bg {
+  text-align: center;
+}
+
+
 .App {
   color: white;
+  text-align: center;
 }
 .btp {
-  color: black;
+  color: white;
 }
 
 .btm {

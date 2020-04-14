@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import * as firebase from 'firebase';
+import '../App.css'
+
+
 const NewLoginForm = (props) => {
     const { setLogin } = props;
     const [email, setEmail] = useState('');
@@ -83,7 +86,7 @@ const NewLoginForm = (props) => {
     )
     const [Display, setDisplay] = useState(false);
     return (
-        <div>
+        <div className ="bg">
             <button className="btn" onClick={() => setDisplay(false)}>SIGN-UP</button>
             <button className="btr" onClick={() => setDisplay(true)}> SIGN-IN</button>
             {Display === false ? SIGNUP : LOGIN}
