@@ -40,11 +40,14 @@ const PhotoBlackpink = () => {
         )
     })
 
+
+
     return (
         <div>
             {PhotoTest}
             <a href="/">HOME</a>
         </div>
+        
     );
 }
 

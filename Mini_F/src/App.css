@@ -3,17 +3,17 @@ body {
   /* background-image: url("https://3.bp.blogspot.com/-ilyYexAGCx4/XCMx6zod66I/AAAAAAAAIr0/5xoklei80i0OD4xZayOviAIJeFRk_VzTwCEwYBhgL/s1600/DkJJMJsUYAAT0Ij.jpg");  */
   /* background-position: center;
   background-repeat: repeat;  */
-  /* background-size: cover;  */
+  background-size: cover; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5em;
-  background-color: #9c6478 ;
+  background-color: #d5adc8;
+  background-image: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
   
 } 
  
 .bg {
   text-align: center;
 }
-
 
 .App {
   color: white;
