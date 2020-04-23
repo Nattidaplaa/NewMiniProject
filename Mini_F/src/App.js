@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>BLΛƆKPIИK(블랙핑크)</h1>
+      <h1>BLΛƆKPIИK(블랙핑크) </h1>
       {Login === false ? <NewLoginForm setLogin={setLogin}/> : null  }
       {Login && <PhotoBlackpink /> }
     </div>

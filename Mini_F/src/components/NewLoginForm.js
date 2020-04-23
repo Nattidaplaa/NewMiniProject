@@ -87,8 +87,8 @@ const NewLoginForm = (props) => {
     const [Display, setDisplay] = useState(false);
     return (
         <div className ="bg">
-            <button className="btn" onClick={() => setDisplay(false)}>SIGN-UP</button>
-            <button className="btr" onClick={() => setDisplay(true)}> SIGN-IN</button>
+            <button className="btn" onClick={() => setDisplay(false)}>SIGN-UP.</button>
+            <button className="btr" onClick={() => setDisplay(true)}> SIGN-IN.</button>
             {Display === false ? SIGNUP : LOGIN}
 
         </div>
