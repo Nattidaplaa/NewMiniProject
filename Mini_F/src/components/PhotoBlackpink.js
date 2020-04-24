@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Axios from 'axios';
 
 
+
 const PhotoBlackpink = () => {
     const nameBlackpink = ["Jennie(제니)", "Lisa(리사)", "Rosé(로제)", "Jisoo(지수)", "Blackpink"];
     const [photos, setPhotos] = useState([]); //สร้างอันเดียวก็ได้ แต่ตัว api เราต้องเรียงเอง ประมาณนี้ ลองทำแยกคนเช่น
@@ -17,7 +18,7 @@ const PhotoBlackpink = () => {
             "ชื่อ : Rose โรเซ่, ตำแหน่ง : นักร้อง, วันเกิด : 11 กุมภาพันธ์ 1997, สถานที่เกิด : ออกแลนด์ นิวซีแลนด์, ส่วนสูง : 168 ซม",
             "Roโรแซนเน พัก หรือ พัก แช-ยอง (เกาหลี: 박채영; เกิด 11 กุมภาพันธ์ ค.ศ. 1997) หรือชื่อในวงการคือ โรเซ่ (Rosé) เป็นนักร้องชาวเกาหลีใต้ที่เกิดในนิวซีแลนด์ เมืองออกแลนด์ ... 1 ประวัติ. 1.1 ชีวิตช่วงแรก; 1.2 แบล็กพิงก์. 2 โฆษณา; 3 ผลงานดนตรี. 3.1 ซิงเกิลในฐานะนักร้อง",
             "Jisoo(지수)"];
-    const buttons = ['JennieInfo', 'LisaInfo', 'RoséInfo', 'JisooInfo','Blackpink']
+    const buttons = ['JennieInfo', 'LisaInfo', 'RoséInfo', 'JisooInfo', 'Blackpink']
     const [Dis, setDis] = useState({ id: null, Data: null });
     // const [Jdis, setJdis] = useState(false)
     // const [Ldis, setLdis] = useState(false)
@@ -26,7 +27,7 @@ const PhotoBlackpink = () => {
     const Display = (index) => {
         setDis({ id: index, Data: dataBlackpink[index] })
     }
-    
+
     const PhotoTest = [...photos].map((photo, index) => {
         return (
             <div key={index}>
@@ -42,13 +43,16 @@ const PhotoBlackpink = () => {
 
 
 
-    return (
+return (
+    <div>
+        {PhotoTest}
+        <a href="/">HOME</a>
         <div>
-            {PhotoTest}
-            <a href="/">HOME</a>
+            <a href="#">Top</a>
         </div>
-        
-    );
+    </div>
+
+);
 }
 
 export default PhotoBlackpink;

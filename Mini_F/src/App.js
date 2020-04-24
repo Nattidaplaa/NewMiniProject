@@ -7,6 +7,7 @@ import config from './firebase/config'
 import 'firebase/auth';
 
 
+
 firebase.initializeApp(config);
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <div className="App">
       <h1>BLΛƆKPIИK(블랙핑크) </h1>
       {Login === false ? <NewLoginForm setLogin={setLogin}/> : null  }
-      {Login && <PhotoBlackpink /> }
+      {Login && <PhotoBlackpink />  }
     </div>
   );
 }
