@@ -48,7 +48,7 @@ return (
         {PhotoTest}
         <a href="/">HOME</a>
         <div>
-            <a href="#">Top</a>
+            <a href="#">Top!</a>
         </div>
     </div>
 
