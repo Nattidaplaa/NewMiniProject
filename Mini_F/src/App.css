@@ -1,8 +1,4 @@
 body {
-  /* text-align: center; */
-  /* background-image: url("https://3.bp.blogspot.com/-ilyYexAGCx4/XCMx6zod66I/AAAAAAAAIr0/5xoklei80i0OD4xZayOviAIJeFRk_VzTwCEwYBhgL/s1600/DkJJMJsUYAAT0Ij.jpg");  */
-  /* background-position: center;
-  background-repeat: repeat;  */
   background-size: cover; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.5em;
@@ -19,19 +15,9 @@ body {
   color: white;
   text-align: center;
 }
-.btp {
-  color: white;
-}
 
 .btm {
   background-color: rgb(59, 11, 90);
-  color: white;
-  padding: 5px 15px;
-  margin-top: 0.3em;
-}
-
-.btn {
-  background-color: black;
   color: white;
   padding: 5px 15px;
   margin-top: 0.3em;
@@ -41,8 +27,40 @@ body {
   background-color: rgb(235, 75, 195);
   color: white;
   padding: 5px 15px;
-  margin-left: 0.3em;
+  margin-right: 0.3em;
 }
+
+.page {
+  background-color: pink;
+  padding: 10px 20px 600px;
+}
+
+.sidebar {
+  padding: 10px;
+  background-color: black;
+}
+
+.body{
+  margin: 40px 90px 0px 100px;
+}
+
+.top{
+  margin-top: 10px;
+}
+
+.right{
+  margin-right: 43px;
+}
+.right2{
+  margin-right: 14px;
+}
+.right3{
+  margin-right: 6px;
+}
+.right4{
+  margin-right: 9px;
+}
+
 
 
 
