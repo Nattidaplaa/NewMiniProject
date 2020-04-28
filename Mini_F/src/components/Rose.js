@@ -4,9 +4,9 @@ class Rose extends Component {
   render() {
     return (
       <div className="page">
-        <h1>Rose</h1>
+        <h1>Rosé</h1>
         <p>
-        Rose
+        Rosé
         </p>
       </div>
     );

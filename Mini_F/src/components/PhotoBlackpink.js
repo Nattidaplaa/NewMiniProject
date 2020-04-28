@@ -46,7 +46,7 @@ const PhotoBlackpink = () => {
 return (
     <div>
         {PhotoTest}
-        <a href="/">HOME</a>
+        <a href="/">Logout</a>
         <div>
             <a href="#">Top!</a>
         </div>

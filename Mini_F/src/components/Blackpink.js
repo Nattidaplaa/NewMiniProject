@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PhotoBlackpink from './PhotoBlackpink'
 
 class Blackpink extends Component {
   render() {
@@ -6,7 +7,7 @@ class Blackpink extends Component {
       <div className="page">
         <h1>Blackpink</h1>
         <p>
-           Blackpink
+           <PhotoBlackpink />
         </p>
       </div>
     );

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import PhotoBlackpink from './components/PhotoBlackpink'
 import NewLoginForm from './components/NewLoginForm';
 import firebase from 'firebase/app';
 import config from './firebase/config'

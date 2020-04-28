@@ -29,7 +29,7 @@ class Content extends Component {
       },
       {
         name: '3',
-        text: 'Rose',
+        text: 'Rosé',
         component: <Rose />
       },
       {
